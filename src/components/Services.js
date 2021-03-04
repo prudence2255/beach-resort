@@ -12,7 +12,7 @@ import {FaBeer} from 'react-icons/fa';
 export default function Services() {
     return (
         <>
-        <div className="services">
+        <div className="services mx-3">
         <div className="row">
             <div className="col-md-8 text-center mx-auto">
                 <h2>
