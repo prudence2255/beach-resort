@@ -43,7 +43,7 @@ export default function Filters() {
     
     return (
        <>
-         <div className="filters ">
+         <div className="filters mx-3">
          <div className="row">
             <div className="col-md-8 text-center mx-auto">
                 <h2>
@@ -53,7 +53,7 @@ export default function Filters() {
                 
             </div>
             </div>
-            <div className="row px-2">
+            <div className="row">
                 <div className="col-sm-2">
                     <SelectBox title="Room Type" options={types}
                         name="type" onChange={handleChange} value={type}

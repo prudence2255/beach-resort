@@ -10,7 +10,7 @@ export default function Room({room}) {
 
     return (
         <>
-        <div className="room col-md-4 ">
+        <div className="room col-md-4 mt-md-2">
         <div className="w3-card-4 single-room-card">
         <img src={room.images[0]} alt="room" className="img-fluid img"/>
         <p className="price">${room.price}</p>

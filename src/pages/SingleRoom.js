@@ -44,7 +44,7 @@ export default function SingleRoom() {
         >
         </Banner> 
         </Header>
-        <div className="container bg-white p-3">
+        <div className="container bg-white p-3 ">
         <div className="row img-container">
             {rest.map(img => (
          <div className="col-md-4">

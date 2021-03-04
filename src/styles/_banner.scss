@@ -45,5 +45,11 @@
             font-size: 35px;
     
         }
+        .divider{
+            height: 5px;
+            width: 40%;
+            background: $primary-2;
+            margin: 10px auto;
+        } 
     }
 }

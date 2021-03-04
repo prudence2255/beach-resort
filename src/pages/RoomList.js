@@ -31,7 +31,7 @@ const dispatch = useDispatch();
         </Header>
         <div className="container mb-5">
         <div className="row">
-{/* {<Filters />} */}
+        <Filters />
         </div>
        { empty && sortedRooms.length === 0 && (
         <div className="row">
