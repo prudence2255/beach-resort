@@ -1,8 +1,7 @@
 
 .services{
-    padding: 20px 50px;
     line-height: 30px;
-    text-align: center;
+    padding: 10px;
 
     h2{
         font-weight: bold;
@@ -20,4 +19,11 @@
         background: $primary-2;
         margin: 20px auto;
     } 
+}
+
+@media(max-width: 768px){
+    .services{
+       
+        text-align: center;
+    }
 }

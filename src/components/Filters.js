@@ -43,7 +43,7 @@ export default function Filters() {
     
     return (
        <>
-         <div className="filters my-5">
+         <div className="filters ">
          <div className="row">
             <div className="col-md-8 text-center mx-auto">
                 <h2>

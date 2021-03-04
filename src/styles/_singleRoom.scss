@@ -1,6 +1,6 @@
 
 .single-room .container{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     line-height: 30px;
     .details{
@@ -13,6 +13,10 @@
    
 }
 
-.header-img{
-    min-height: 70vh;
+
+
+@media(max-width: 768px){
+    .single-room .header-img{
+        min-height: 50vh;
+    }
 }

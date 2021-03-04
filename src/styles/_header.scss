@@ -13,3 +13,9 @@
     color: $gray-200;
 
 }
+
+@media(max-width: 768px){
+    .header-img{
+        min-height: 60vh;
+    }
+}

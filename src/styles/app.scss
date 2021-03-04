@@ -34,3 +34,8 @@ body {
   min-height: 90vh;
 }
 
+@media(max-width: 768px){
+  .not-found .header-img{
+    min-height: 50vh;
+  }
+}

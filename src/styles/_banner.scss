@@ -34,3 +34,16 @@
    } 
 }
 
+@media(max-width: 768px){
+    .banner{
+      
+        padding: 10px 30px;
+        color: $gray-100;
+      
+    
+        h1{
+            font-size: 35px;
+    
+        }
+    }
+}
