@@ -1,0 +1,36 @@
+
+
+
+.banner{
+    background-color: rgba(0, 0, 0 , 0.5);
+    padding: 15px 50px;
+    color: $gray-100;
+    text-align: center;
+    letter-spacing: $mainSpacing;
+    text-transform: capitalize;
+
+    h1{
+        font-size: 50px;
+        color: $white;
+
+    }
+    h5{
+        margin: 20px 0px;
+    }
+    a{
+        display: inline-block;
+        padding: 10px;
+        background: $primary-2;
+    }
+    a:hover{
+        background: $gray-800;
+        color: $gray-200;
+    }
+   .divider{
+       height: 5px;
+       width: 40%;
+       background: $primary-2;
+       margin: 20px auto;
+   } 
+}
+

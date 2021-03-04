@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap');
+@import './variables';
+@import './header';
+@import './navbar';
+@import './banner';
+@import './services';
+@import './featuredRooms';
+@import './room';
+@import './filters';
+@import './singleRoom';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: $gray-200;
+  color: $main-text-color;
+  font-family: 'OPen sans', 'Times New Roman', Times, serif;
+}
+
+*{
+  box-sizing: border-box;
+ // font-family: 'OPen sans', 'Times New Roman', Times, serif;
+}
+
+.page{
+  margin-bottom: 100px;
+  border-bottom: 5px solid $primary-2;
+}
+
+.not-found .header-img{
+  min-height: 90vh;
+}
+

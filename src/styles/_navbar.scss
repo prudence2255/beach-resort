@@ -1,0 +1,54 @@
+
+
+.resort-navbar{
+    padding: 10px 0px;
+
+    .nav-items{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        font-size: 18px;
+        transition: all 3s;
+       & div a{
+           display: inline-block;
+           padding: 0px 15px;
+           margin-left: 10px; 
+           border: 1px solid #046865;
+           border-radius: 5px;
+           width: 150px;
+           text-align: center;
+       } 
+       & div a:hover{
+           background: #046865;
+           color: $gray-200;
+       }
+    }
+.navar-toggle{
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width: 768px){
+    .navar-toggle{
+        display: block;
+    }
+  
+    .nav-items{
+       display: none;
+       flex-direction: column;
+       margin-left: -200px;
+       margin-top: 40px;
+    }
+
+    .show-nav{
+        display: block;
+        & div{
+            padding: 8px 0px; 
+        } 
+    }
+}
+}
+
+a:hover{
+text-decoration: none;
+}

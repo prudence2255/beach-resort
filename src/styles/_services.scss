@@ -1,0 +1,23 @@
+
+.services{
+    padding: 20px 50px;
+    line-height: 30px;
+    text-align: center;
+
+    h2{
+        font-weight: bold;
+        margin: 20px 0px;
+    }
+    h5{
+        font-weight: bold;
+        text-transform: capitalize;
+        margin: 20px 0px;
+    }
+
+    .divider{
+        height: 5px;
+        width: 10%;
+        background: $primary-2;
+        margin: 20px auto;
+    } 
+}

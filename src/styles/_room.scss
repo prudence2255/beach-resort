@@ -1,0 +1,52 @@
+
+.single-room-card{
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    h5{
+        font-weight: bold;
+        text-transform: capitalize;
+        margin: auto;
+    }
+
+    p.price{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $primary-3;
+        color: $gray-100;
+        padding: 7px 10px;
+        border-bottom-right-radius: 12px;
+    }
+
+    p.features-link a{
+        position: absolute;
+        top: 40%;
+        bottom: 40%;
+        text-transform: uppercase;
+        text-align: center;
+       padding-top: 10px;
+        left: 40%;
+        right: 40%;
+        width: 100px;
+        height: 40px;
+        background: $primary-2;
+        color: $gray-100;
+        display: none;
+    }
+}
+
+.single-room-card:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+
+    p.features-link a{
+        display: block;
+    }
+    p.features-link a:hover{
+        background: $gray-800;
+        color: $gray-200;
+    }
+    p.price{
+        display: none;
+    }
+}
