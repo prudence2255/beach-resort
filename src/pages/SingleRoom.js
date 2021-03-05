@@ -78,7 +78,7 @@ export default function SingleRoom() {
         </div>
         <h4>Extras</h4>
         <div className="row">
-           {room?.extras?.map((extra, i) => <div className="col-md-4"><p key={i}>-{extra}</p></div>)}
+           {room?.extras?.map((extra, i) => <div className="col-md-4" key={i}><p >-{extra}</p></div>)}
         </div>
         </div>
         </div>
