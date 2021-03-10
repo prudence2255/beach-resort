@@ -16,3 +16,22 @@
         margin: 20px auto;
     } 
 }
+
+.featured-images{
+    display: flex;
+    flex-wrap: wrap;
+
+    .room{
+        width: 32%;
+        margin: 0 5px;
+    }
+}
+
+@media(max-width: 768px){
+    .featured-images{
+        .room{
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}

@@ -53,34 +53,34 @@ export default function Filters() {
                 
             </div>
             </div>
-            <div className="row">
-                <div className="col-sm-2">
+            <div className="row filters-list">
+                <div className="filter">
                     <SelectBox title="Room Type" options={types}
                         name="type" onChange={handleChange} value={type}
                     />
                 </div>
-                <div className="col-sm-2">
+                <div className="filter">
                 <SelectBox title="Guests" options={guests}
                         name="capacity" onChange={handleChange} value={capacity}
                     />
                 </div>
-                <div className="col-sm-2">
+                <div className="filter">
                 <RangeInput type="range" title={`Room Price $${price}`}
                     value={price} onChange={handleChange} name="price"
                     min={minPrice} max={maxPrice}
                 />
                 </div>
-               <div className="col-sm-2">
+               <div className="filter">
                 <NumberInput type="number" value={minSize} onChange={handleChange}
                     name="minSize" title="Min Room Size"
                 />
                 </div>
-                <div className="col-sm-2" >
+                <div  className="filter">
                 <NumberInput type="number" value={maxSize} onChange={handleChange}
                     name="maxSize" title="Max Room Size"
                 />
                 </div>
-                <div className="col-sm-2">
+                <div className="filter">
                 <CheckBox title="Breakfast" 
                         name="breakfast" onChange={handleChange} checked={breakfast}
                     />

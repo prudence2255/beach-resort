@@ -30,7 +30,7 @@ export default function FeaturedRooms() {
              <div className="divider"></div>
              </h2>   
             </div>
-           <div className="row">
+           <div className="row featured-images">
                  {roomList}
            </div>
         </div>

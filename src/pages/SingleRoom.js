@@ -47,7 +47,7 @@ export default function SingleRoom() {
         <div className="container bg-white p-3 ">
         <div className="row img-container">
             {rest.map((img, i) => (
-         <div className="col-md-4" key={i}>
+         <div className="single-room-img" key={i}>
         <div className="w3-card-4 mt-3">
         <img src={img} alt={room.name} className="img-fluid img"/>
         </div>

@@ -38,7 +38,7 @@ const dispatch = useDispatch();
             <div className="col-md-6 mx-auto text-center"><h3>No Room Matches Your Search</h3></div>
         </div>
        )}
-        <div className="row">
+        <div className=" row rooms-container">
                  {roomList}
          </div>
         </div>

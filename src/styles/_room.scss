@@ -50,3 +50,29 @@
         display: none;
     }
 }
+
+.rooms-container{
+    display: flex;
+    flex-wrap: wrap;
+
+    .room{
+        width: 30%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 768px){
+    .rooms-container{
+        .room{
+            width: 44%;
+            margin: 0 auto;
+        }
+
+        p.features-link a{
+            top:30%;
+            bottom: 40%;
+            left: 30%;
+            right: 40%;
+        }   
+    }
+}
